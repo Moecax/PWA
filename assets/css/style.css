@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap");
+/* font-family: 'Noto Sans', sans-serif; */
+
+body {
+  margin: 0;
+  color: #2c3232;
+  font-family: "Noto Sans", sans-serif !important;
+  /* font-weight: 400; */
+}
+.greeting {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #2c3232;
+  font-weight: 700;
+}
+.cards-section {
+  height: 25vh;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #6f7e7d;
+  /* background: aliceblue; */
+}
+.cards-section > h4 {
+  color: #6f7e7d;
+  font-size: 18px;
+  font-weight: 600;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  overflow-x: scroll;
+  padding-bottom: 20px;
+}
+.cards {
+  width: 50%;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 20px 15px;
+  background-color: bisque;
+  border-radius: 15px;
+  font-weight: 500;
+}
+.cards:nth-child(2) {
+  color: #6f7e7d;
+  background-color: #effefc;
+  /* box-shadow: 6px 3px 24px 6px rgba(239, 254, 252, 0.1); */
+  box-shadow: 3px 1px 24px 6px rgba(59, 59, 59, 0.1);
+}
+.cards:nth-child(3) {
+  color: #656f7e;
+  background-color: #e5effe;
+  /* box-shadow: 6px 3px 24px 6px rgba(229, 239, 254, 0.1); */
+  box-shadow: 3px 1px 24px 6px rgba(59, 59, 59, 0.1);
+}
+.cards:nth-child(1) {
+  color: #625f78;
+  background-color: #e1dff8;
+  /* box-shadow: 6px 3px 24px 6px rgba(225, 223, 248, 0.1); */
+  box-shadow: 3px 1px 24px 6px rgba(59, 59, 59, 0.1);
+}
+.text1 {
+  animation: slideUp 1s ease-out forwards;
+}
+.text2 {
+  animation: slideUp 1s ease-out forwards;
+  animation-delay: 0.25s;
+}
+.text3 {
+  animation: slideUp 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+.entertainment {
+  margin-left: 20px;
+}
+.entertainment-greeting {
+  color: #3d3246;
+  font-size: 18px;
+  font-weight: 600;
+}
+.activity-card {
+  background-color: #faf6fd;
+  padding: 20px 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  border-radius: 15px;
+  color: #3d3246;
+  /* box-shadow: 6px 3px 24px 6px rgba(250, 246, 253, 0.1); */
+  box-shadow: 6px 3px 24px 6px rgba(59, 59, 59, 0.1);
+}
+.activity-card-button {
+  background-color: #e6d4f4;
+  color: #665475;
+  border-radius: 10px;
+  padding: 8px;
+  border: none;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  box-shadow: 12px 12px 37px #d0d0d0, -12px -12px 37px #f0f0f0;
+}
+.activity-card-button:hover {
+  background-color: #f0e5f8;
+}
+.activity-card-content {
+  color: #3d3246;
+}
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

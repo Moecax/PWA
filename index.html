@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Web App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar sticky-top bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/img/logo-light-bg-nobg.png"
+            alt="Bootstrap"
+            width="70"
+            height="50"
+          />
+        </a>
+      </div>
+    </nav>
+
+    <h2 class="greeting">Hello,</h2>
+
+    <section class="cards-section">
+      <h4>Where am I, you ask?</h4>
+      <div class="cards-container">
+        <div class="cards">
+          <div class="text1">You're in a web app</div>
+        </div>
+        <div class="cards">
+          <div class="text2">You're in a mobile app</div>
+        </div>
+        <div class="cards">
+          <div class="text3">You're in a PWA</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="entertainment">
+      <h5 class="entertainment-greeting">Let's Beat the Boredom</h5>
+      <div class="activity-card">
+        <div id="activity-card-texts">
+          <button class="activity-card-button" id="reloadButton">
+            What Can I Do?
+          </button>
+          <p class="activity-card-content">
+            Click the button to load activity.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
