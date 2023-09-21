@@ -10,7 +10,10 @@
     <div id="app">
       <button @click="incrementCount">Count is: {{ count }}</button>
     </div>
-    <div id="hello">{{message}}</div>
+    <div id="hello">
+      <input type="text" v-model="message" />
+      {{message}}
+    </div>
 
     <script src="https://unpkg.com/vue@3"></script>
     <script>

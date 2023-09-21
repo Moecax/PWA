@@ -1,7 +1,7 @@
 const apps = Vue.createApp({
   data() {
     return {
-      message: "hello",
+      message: "type something",
     };
   },
 });
