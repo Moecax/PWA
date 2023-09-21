@@ -7,6 +7,28 @@
     <title>Game</title>
   </head>
   <body>
+    <div id="app">
+      <button @click="incrementCount">Count is: {{ count }}</button>
+    </div>
+    <div id="hello">{{message}}</div>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script>
+      const app = Vue.createApp({
+        data() {
+          return {
+            count: 0,
+          };
+        },
+        methods: {
+          incrementCount() {
+            this.count++;
+          },
+        },
+      });
+
+      app.mount("#app");
+    </script>
     <script src="assets/js/game.js"></script>
   </body>
 </html>

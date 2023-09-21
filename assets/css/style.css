@@ -104,6 +104,20 @@ body {
 .activity-card-content {
   color: #3d3246;
 }
+.play-game-button {
+  background-color: #e6d4f4;
+  color: #665475;
+  border-radius: 10px;
+  padding: 8px;
+  border: none;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  box-shadow: 12px 12px 37px #d0d0d0, -12px -12px 37px #f0f0f0;
+  text-decoration: none;
+}
+.play-game-button:hover {
+  background-color: #f0e5f8;
+}
 @keyframes slideUp {
   from {
     opacity: 0;
